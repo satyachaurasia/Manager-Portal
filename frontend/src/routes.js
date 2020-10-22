@@ -7,7 +7,7 @@ import Signup from './components/Signup';
 
 const BaseRouter = () =>(
     <div>
-        <Route exact path='/sign-up/' component={Signup}/>
+        <Route exact path='/' component={Signup}/>
         <Route exact path='/log-in/' component={Login}/>
         <Route exact path='/employee/:page?' component={Dashboard}/>
     </div>
